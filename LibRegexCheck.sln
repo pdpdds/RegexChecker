@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibRegexCheck", "LibRegexCheck\LibRegexCheck.vcproj", "{A96BFB10-72D1-4439-B65F-ECFF3A948124}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegexCheckTest", "RegexCheckTest\RegexCheckTest.vcproj", "{EF81813E-455B-47EF-8593-6486CA2ED4D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A96BFB10-72D1-4439-B65F-ECFF3A948124} = {A96BFB10-72D1-4439-B65F-ECFF3A948124}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96BFB10-72D1-4439-B65F-ECFF3A948124}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A96BFB10-72D1-4439-B65F-ECFF3A948124}.Debug|Win32.Build.0 = Debug|Win32
+		{A96BFB10-72D1-4439-B65F-ECFF3A948124}.Release|Win32.ActiveCfg = Release|Win32
+		{A96BFB10-72D1-4439-B65F-ECFF3A948124}.Release|Win32.Build.0 = Release|Win32
+		{EF81813E-455B-47EF-8593-6486CA2ED4D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF81813E-455B-47EF-8593-6486CA2ED4D1}.Debug|Win32.Build.0 = Debug|Win32
+		{EF81813E-455B-47EF-8593-6486CA2ED4D1}.Release|Win32.ActiveCfg = Release|Win32
+		{EF81813E-455B-47EF-8593-6486CA2ED4D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
