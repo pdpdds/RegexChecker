@@ -1,0 +1,10 @@
+1. Descryption
+this module check many string format using c++ regular expression
+
+2. functionality
+game id check, ip address check, end so on, i will update useful regular expression analysis function
+
+3. Required
+it can compile visual studio 2008(of course it is possible in VS2005, VS2010)
+
+
