@@ -1,12 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibRegexCheck", "LibRegexCheck\LibRegexCheck.vcproj", "{A96BFB10-72D1-4439-B65F-ECFF3A948124}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibRegexCheck", "LibRegexCheck\LibRegexCheck.vcxproj", "{A96BFB10-72D1-4439-B65F-ECFF3A948124}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegexCheckTest", "RegexCheckTest\RegexCheckTest.vcproj", "{EF81813E-455B-47EF-8593-6486CA2ED4D1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A96BFB10-72D1-4439-B65F-ECFF3A948124} = {A96BFB10-72D1-4439-B65F-ECFF3A948124}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegexCheckTest", "RegexCheckTest\RegexCheckTest.vcxproj", "{EF81813E-455B-47EF-8593-6486CA2ED4D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D24B12-116A-41EA-A8B3-BA8D2DEB58AD}
 	EndGlobalSection
 EndGlobal
